@@ -5,6 +5,6 @@ export default function robots() {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://nsat-discount.example.com/sitemap.xml",
+    sitemap: "https://nsat.nakul.click//sitemap.xml",
   }
 }
