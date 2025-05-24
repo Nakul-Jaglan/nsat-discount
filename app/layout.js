@@ -48,7 +48,7 @@ export const metadata = {
     title: "Save ₹300 on NSAT Exam Fee | Newton School Admission Test Discount",
     description:
       "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
-    images: ["/og-image.jpg"],
+    images: "/og-image.jpg",
     creator: "@Nakul_Jaglan",
     site: "@Nakul_Jaglan",
   },
@@ -66,7 +66,7 @@ export default function RootLayout({ children }) {
         <meta name="theme-color" content="#000000" />
         <meta name="apple-mobile-web-app-title" content="NSAT" />
 
-        <title>Save ₹300 on NSAT Exam Fee | Newton School Admission Test Discount</title>
+        {/* <title>Save ₹300 on NSAT Exam Fee | Newton School Admission Test Discount</title> */}
         <meta name="description" content="Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test." />
 
         <meta property="og:url" content="https://nsat.nakul.click"/>
