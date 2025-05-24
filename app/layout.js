@@ -36,7 +36,7 @@ export const metadata = {
       "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 800,
         alt: "NSAT Discount Offer - Save ₹300",
@@ -48,7 +48,7 @@ export const metadata = {
     title: "Save ₹300 on NSAT Exam Fee | Newton School Admission Test Discount",
     description:
       "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpg"],
     creator: "@Nakul_Jaglan",
     site: "@Nakul_Jaglan",
   },
