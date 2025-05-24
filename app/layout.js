@@ -1,5 +1,3 @@
-// app/layout.js or app/layout.tsx (Next.js 13+ App Router)
-
 import { Inter } from "next/font/google";
 import "./globals.css";
 
@@ -38,7 +36,7 @@ export const metadata = {
       "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
     images: [
       {
-        url: "https://opengraph.b-cdn.net/production/images/6a8f2439-ce52-4b60-8fa9-6e9c61718350.png?token=0LtmHkK19YfyK3JPir-3QRmUcYbK3Lp23t7au7P2j7c&height=800&width=1200&expires=33284089473",
+        url: "/og-image.png",
         width: 1200,
         height: 800,
         alt: "NSAT Discount Offer - Save ₹300",
@@ -50,9 +48,7 @@ export const metadata = {
     title: "Save ₹300 on NSAT Exam Fee | Newton School Admission Test Discount",
     description:
       "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
-    images: [
-      "https://opengraph.b-cdn.net/production/images/6a8f2439-ce52-4b60-8fa9-6e9c61718350.png?token=0LtmHkK19YfyK3JPir-3QRmUcYbK3Lp23t7au7P2j7c&height=800&width=1200&expires=33284089473",
-    ],
+    images: ["/og-image.png"],
     creator: "@Nakul_Jaglan",
     site: "@Nakul_Jaglan",
   },
