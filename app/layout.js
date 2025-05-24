@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google"
-import "./globals.css"
+// app/layout.js or app/layout.tsx (Next.js 13+ App Router)
 
-const inter = Inter({ subsets: ["latin"] })
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://nsat.nakul.click/"),
@@ -36,24 +38,28 @@ export const metadata = {
       "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "https://opengraph.b-cdn.net/production/images/6a8f2439-ce52-4b60-8fa9-6e9c61718350.png?token=0LtmHkK19YfyK3JPir-3QRmUcYbK3Lp23t7au7P2j7c&height=800&width=1200&expires=33284089473",
         width: 1200,
-        height: 630,
+        height: 800,
         alt: "NSAT Discount Offer - Save ₹300",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Save ₹300 on NSAT Exam Fee",
-    description: "Get instant ₹300 discount on Newton School Admission Test. Pay just ₹900 instead of ₹1200.",
-    images: ["/og-image.png"],
+    title: "Save ₹300 on NSAT Exam Fee | Newton School Admission Test Discount",
+    description:
+      "Register for NSAT using our referral link and pay just ₹900 instead of ₹1200. Get instant ₹300 discount on Newton School Admission Test.",
+    images: [
+      "https://opengraph.b-cdn.net/production/images/6a8f2439-ce52-4b60-8fa9-6e9c61718350.png?token=0LtmHkK19YfyK3JPir-3QRmUcYbK3Lp23t7au7P2j7c&height=800&width=1200&expires=33284089473",
+    ],
     creator: "@Nakul_Jaglan",
+    site: "@Nakul_Jaglan",
   },
   verification: {
     google: "your-google-verification-code",
-  }
-}
+  },
+};
 
 export default function RootLayout({ children }) {
   return (
@@ -66,5 +72,5 @@ export default function RootLayout({ children }) {
       </head>
       <body className={inter.className}>{children}</body>
     </html>
-  )
+  );
 }
