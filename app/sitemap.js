@@ -6,5 +6,7 @@ export default function sitemap() {
       changeFrequency: "weekly",
       priority: 1,
     },
-  ]
+  ];
 }
+
+export const revalidate = 60;
